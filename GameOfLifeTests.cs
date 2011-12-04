@@ -4,7 +4,7 @@ namespace GameOfLife {
     [TestFixture]
     public class GameOfLifeTests {
         [Test]
-        public void TestDeadCellWith0NeighboursStaysDeadInNextGeneration() {
+        public void TestDeadCellWith0NeighbourStaysDeadInNextGeneration() {
             ICell cell = new DeadCell();
             cell = cell.NextGeneration(0);
             Assert.True(cell is DeadCell);
