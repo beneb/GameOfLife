@@ -1,5 +1,5 @@
 namespace GameOfLife {
     public interface ICell {
-        ICell NextGeneration(int liveNighbours);
+        ICell NextGeneration(int liveNeighbors);
     }
 }
