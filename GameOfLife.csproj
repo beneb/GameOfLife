@@ -41,9 +41,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="World2D.cs" />
     <Compile Include="DeadCell.cs" />
     <Compile Include="ICell.cs" />
-    <Compile Include="GameOfLifeTests.cs" />
+    <Compile Include="CellTests.cs" />
     <Compile Include="LiveCell.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
