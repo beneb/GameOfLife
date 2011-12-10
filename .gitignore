@@ -2,3 +2,6 @@
 _Resharper*
 bin/*
 obj/*
+*.slnl
+*.sln
+*.s*
